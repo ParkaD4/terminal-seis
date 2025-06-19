@@ -102,7 +102,7 @@ climatização = [
   "Por questões de segurança todos os climatizadores permanecerão ativos a todo momento, não sendo recomendado sua desativação.",
   'É possível mudar o seu modo, de <span class="frio">frio</span> para <span class="calor">calor</span> e vice-versa caso for necessário ou requisitado.',
   "Para facilitação da identificação do modo ativo no momento, a tabela de climatizadores ativos alternará sua coloração conforme a temperatura da área.",
-  '<span class="command">Ala Esquerda:</span> <span class="frio">Ativo</span>.',
+  '<span class="command">Ala Esquerda:</span> <span class="calor">Ativo</span>.',
   '<span class="command">Ala Direita:</span> <span class="calor">Ativo</span>.',
   '<span class="command">Ala Superior</span> <span class="calor">Ativo</span>.',
   '<span class="command">Ala Inferior:</span> <span class="calor">Ativo</span>.',
