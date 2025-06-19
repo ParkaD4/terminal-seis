@@ -1,0 +1,216 @@
+body {
+  margin: 0;
+  padding: 15px 20px;
+  min-height: 99%;
+  width: 100%;
+  min-width: 550px;
+  color: #519975;
+  background: #211D1B;
+  font-family: cursor, monospace;
+  overflow-x: hidden;
+}
+::selection {
+  color: #211830;
+  background-color: #519975;
+}
+::-moz-selection {
+  color: #211830;
+  background-color: #519975;
+}
+textarea {
+  left: -1000px;
+  position: absolute;
+}
+b {
+  font-weight: bold;
+  text-decoration: underline;
+}
+/* Cursor Start */
+.cursor {
+  font-size: 12px;
+  color: #73ABAD;
+  background-color: #73ABAD;
+  position: relative;
+  opacity: 1;
+  height: 1.5em;
+  width: 10px;
+  max-width: 10px;
+  transform: translateY(4px);
+  overflow: hidden;
+  text-indent: -5px;
+  display: inline-block;
+  text-decoration: blink;
+  animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+#command {
+  cursor: text;
+  height: 50px;
+  color: #73ABAD;
+}
+#derretido {
+  cursor: text;
+  height: 50px;
+  color:#c22115
+}
+#liner {
+  line-height: 1.3em;
+  margin-top: -2px;
+  animation: show 0.5s ease forwards;
+  animation-delay: 1.2s;
+  opacity: 0;
+}
+#liner::before {
+  color: #519975;
+  content: "C/User/Seis:";
+}
+#liner.password::before {
+  content: "Por favor, insira a senha:";
+}
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* Cursor End */
+p {
+  display: block;
+  line-height: 1.3em;
+  margin: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0;
+  letter-spacing: 0.05em;
+  animation: typing 0.5s steps(30, end);
+}
+.no-animation {
+  animation: typing 0 steps(30, end);
+}
+.margin {
+  margin-left: 20px;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+.index {
+  color: #DCDCCC;
+}
+.color2 {
+  color: #B89076;
+}
+.command {
+  color: #73ABAD;
+  text-shadow: 0 0 5px #73ABAD; 
+}
+.derretido {
+  color: #ab0e42;
+  text-shadow: 0 0 5px #ab0e42; 
+}
+.mescla {
+  color: #c22115;
+  text-shadow: 0 0 5px #c22115; 
+}
+.infecticideo {
+  color: #3d7542;
+  text-shadow: 0 0 5px #3d7542; 
+}
+.eletricidade {
+  color: #5483d6;
+  text-shadow: 0 0 5px #5483d6; 
+}
+.liam {
+  color: #14ff29;
+  text-shadow: 0 0 5px #14ff29; 
+}
+.estanho {
+  color: #847c5c;
+  text-shadow: 0 0 5px #847c5c; 
+}
+.chumbo {
+  color: #3c5474;
+  text-shadow: 0 0 5px #3c5474; 
+}
+.tungstenio {
+  color: #4c744c;
+  text-shadow: 0 0 5px #4c744c; 
+}
+.diabo {
+  color: #991929;
+  text-shadow: 0 0 5px #991929; 
+}
+.ddm {
+  color: #232826;
+  text-shadow: 0 0 5px #232826; 
+}
+.anfitras {
+  color: #66129c;
+  text-shadow: 0 0 5px #66129c; 
+}
+.magistrada {
+  color: #e5b240;
+  text-shadow: 0 0 5px #e5b240; 
+}
+.guiana {
+  color: #f0f2fa;
+  text-shadow: 0 0 5px #f0f2fa; 
+}
+.oceano {
+  color: #006790;
+  text-shadow: 0 0 5px #006790; 
+}
+.australia {
+  color: #537560;
+  text-shadow: 0 0 5px #537560; 
+}
+.texas {
+  color: #e0c1b3;
+  text-shadow: 0 0 5px #e0c1b3; 
+}
+.elevador {
+  color: #b49372;
+  text-shadow: 0 0 5px #b49372; 
+}
+.platina {
+  color: #b4c4dc;
+  text-shadow: 0 0 5px #b4c4dc; 
+}
+.frio {
+  color: #7aceff;
+  text-shadow: 0 0 5px #7aceff; 
+}
+.calor {
+  color: #ff6739;
+  text-shadow: 0 0 5px #ff6739; 
+}
+.error {
+  color: #B89076;
+}
+.white {
+  color: #fff;
+}
+.inherit,
+a {
+  color: #9C8394;
+}
+a {
+  text-decoration: inherit;
+}
+a:hover {
+  background: #73ABAD;
+  color: #211830;
+}
+a:focus {
+  outline: 0;
+}
