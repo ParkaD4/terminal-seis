@@ -1,3 +1,38 @@
+@font-face {
+  font-family: "Sinais";
+  src: url("./fonts/SinaisEstrangeiro.ttf");
+}
+
+kaori {
+    animation: kaoricor 8s both infinite alternate;
+}
+
+loki {
+    animation: lokicor 10s both infinite alternate;
+}
+
+@keyframes lokicor {
+    from { 
+      color: white;
+      text-shadow: 0 0 5px rgb(80, 80, 80)
+    }
+    to {
+      color: #319c70; 
+      text-shadow: 0 0 5px #0b00a5
+    }
+}
+
+@keyframes kaoricor {
+    from { 
+      color: #8a24ff;
+      text-shadow: 0 0 5px #426192
+    }
+    to {
+      color: rgb(68, 214, 190); 
+      text-shadow: 0 0 5px #adba76
+    }
+}
+
 body {
   margin: 0;
   padding: 15px 20px;
@@ -51,11 +86,6 @@ b {
   cursor: text;
   height: 50px;
   color: #73ABAD;
-}
-#derretido {
-  cursor: text;
-  height: 50px;
-  color:#c22115
 }
 #liner {
   line-height: 1.3em;
@@ -131,8 +161,8 @@ p {
   text-shadow: 0 0 5px #5483d6; 
 }
 .liam {
-  color: #14ff29;
-  text-shadow: 0 0 5px #14ff29; 
+  color: #14db24;
+  text-shadow: 0 0 5px #14db24; 
 }
 .estanho {
   color: #847c5c;
@@ -199,6 +229,46 @@ p {
 }
 .white {
   color: #fff;
+}
+.parasitas {
+  color: #b2ff23;
+  text-shadow: 0 0 5px #b2ff23;
+}
+.camuflados {
+  color: #11b442;
+  text-shadow: 0 0 5px #11b442; 
+}
+.psiconicos {
+  color: #09ee96;
+  text-shadow: 0 0 5px #09ee96; 
+}
+.descartaveis {
+  color: #9abb8e;
+  text-shadow: 0 0 5px #9abb8e; 
+}
+.estrangeiro {
+  color: #6a7f3a;
+  text-shadow: 0 0 5px #6a7f3a;
+}
+.morgana {
+  color: #3b0000;
+  text-shadow: 0 0 5px #3b0000;
+}
+.ninki {
+  color: #700002;
+  text-shadow: 0 0 5px #700002;
+}
+.kehhev {
+  color: #ffc67c;
+  text-shadow: 0 0 5px #ffc67c;
+}
+.yahan {
+  color: #c38bd4;
+  text-shadow: 0 0 5px #c38bd4;
+}
+.cole {
+  color: #b6b6b6;
+  text-shadow: 0 0 5px #b6b6b6;
 }
 .inherit,
 a {
