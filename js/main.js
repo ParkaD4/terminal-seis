@@ -129,10 +129,79 @@ function commander(cmd) {
       addLine('Arquivo de extrema importância.', "color2", 0);
       newTab(confidencial);
       break;
-    case "alheio":
+    case "taodiolhoinnois":
       addLine('<span class="liam">Eles tão di olho in nois</span>', "color2", 0);
-      newTab(alheio);
+      newTab(taodiolhoinnois);
       break;
+    case "alheios":
+      loopLines(alheios, "color2 margin", 80);
+      break;
+    case "parasitas":
+      loopLines(parasitas, "color2 margin", 80);
+      break;
+    case "camuflados":
+      loopLines(camuflados, "color2 margin", 80);
+      break;
+    case "psicônicos":
+      loopLines(psicônicos, "color2 margin", 80);
+      break;
+    case "descartáveis":
+      loopLines(descartáveis, "color2 margin", 80);
+      break;
+    case "magnumopus":
+      loopLines(magnumopus, "color2 margin", 80);
+      break;
+    case "loki":
+      loopLines(loki, "color2 margin", 80);
+      break;
+    case "nicolau":
+      loopLines(nicolau, "color2 margin", 80);
+      break;
+    case "ninki":
+      loopLines(ninki, "color2 margin", 80);
+      break;
+    case "kaori":
+      loopLines(kaori, "color2 margin", 80);
+      break;
+    case "ryomenkaori":
+      loopLines(kaori, "color2 margin", 80);
+      break;
+    case "ryomen":
+      loopLines(kaori, "color2 margin", 80);
+      break;
+    case "kehhev":
+      loopLines(kehhev, "color2 margin", 80);
+      break;
+    case "keh-hev":
+      loopLines(kehhev, "color2 margin", 80);
+      break;
+    case "yahan":
+      loopLines(yahan, "color2 margin", 80);
+      break;
+    case "nana":
+      loopLines(nana, "color2 margin", 80);
+      break;
+    case "sussurro":
+      loopLines(sussurro, "color2 margin", 80);
+      break;
+    case "cole":
+      loopLines(cole, "color2 margin", 80);
+      break;
+    case "morgana":
+      loopLines(morgana, "color2 margin", 80);
+      break;
+    case "doppelgänger":
+      loopLines(doppelgänger, "color2 margin", 80)
+      break;
+    case "doppelganger":
+      loopLines(doppelgänger, "color2 margin", 80)
+      break;
+    case "doppelgängers":
+      loopLines(doppelgänger, "color2 margin", 80)
+      break;
+    case "doppelgangers":
+      loopLines(doppelgänger, "color2 margin", 80)
+      break;  
     case "estrangeiro":
     addLine('<span class="liam">                                                                                                                                      ██▓▒▒▓▒▓▓██</span>', "color2", 0);
     addLine('<span class="liam">                                                                                                                                  ██▓▓▒▒▒▒▒▓▓▒▓▓▓▒▒███ </span>', "color2", 0);                                                                                                                                      
