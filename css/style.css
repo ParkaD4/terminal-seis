@@ -5,6 +5,10 @@ font-weight: normal;
 font-style: normal;
 }
 
+body {
+     font-family: 'Sinais', sans-serif;
+}
+
 kaori {
     animation: kaoricor 8s both infinite alternate;
 }
