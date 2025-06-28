@@ -1,17 +1,20 @@
 @font-face {
     font-family: 'Sinais';
-    src: url('/fonts/SinaisEstrangeiro.ttf') format('truetype');
+    src: url('fonts/SinaisEstrangeiro-Regular.eot');
+    src: url('fonts/SinaisEstrangeiro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/SinaisEstrangeiro-Regular.woff2') format('woff2'),
+        url('fonts/SinaisEstrangeiro-Regular.woff') format('woff'),
+        url('fonts/SinaisEstrangeiro-Regular.ttf') format('truetype'),
+        url('fonts/SinaisEstrangeiro-Regular.svg#SinaisEstrangeiro-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
-}
-
-body {
-  font-family: 'Sinais', sans-serif; /* Use the font name you defined */
+    font-display: swap;
 }
 
 h1 {
-  font-family: 'Sinais', sans-serif;
-  font-size: 2em;
+  font-family: 'Sinais', Arial, sans-serif;
+  font-weight:normal;
+  font-style:normal;
 }
 
 kaori {
