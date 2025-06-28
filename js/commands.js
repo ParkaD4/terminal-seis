@@ -120,7 +120,7 @@ climatização = [
 
 eletricidade = [
   "<br>",
-  '<span class="eletricidade">Geradores em atividade:</span> <span class="infecticideo">01/██</span>.',
+  '<span class="eletricidade">Geradores em atividade:</span> <span class="infecticideo">02/██</span>.',
   "Devido a natureza volátil das atuais circunstâncias, foram desativados cerca de ██ geradores locais. Afim de prevenir futuros danos as salas de interesse.",
   "Em caso de retomada do Hospital Woodings Greyhouse como base de operações, será necessário religar cada gerador gradualmente, liberando acesso a outras áreas.",
   "Caso algum gerador seja comprometido, componentes para a restauração de apenas uma unidade estão localizadas na sala 09.",
