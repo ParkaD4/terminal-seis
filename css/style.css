@@ -3,6 +3,12 @@
   src: url('css/fonts/SinaisEstrangeiro-Regular.ttf') format('truetype');
 }
 
+h1 {
+  font-family: 'Sinais', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
 kaori {
     animation: kaoricor 8s both infinite alternate;
 }
