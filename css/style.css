@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Sinais';
-  src: url('css/fonts/SinaisEstrangeiro-Regular.ttf')
+  src: url('css/fonts/SinaisEstrangeiro-Regular.ttf') format('truetype');
 }
 
 kaori {
