@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Sinais";
+    font-family: 'Sinais';
     src: url('css/fonts/SinaisEstrangeiro-Regular.eot');
     src: url('css/fonts/SinaisEstrangeiro-Regular.eot?#iefix') format('embedded-opentype'),
         url('css/fonts/SinaisEstrangeiro-Regular.woff2') format('woff2'),
@@ -9,6 +9,12 @@
     font-weight: normal;
     font-style: normal;
     font-display: swap;
+}
+
+body {
+  font-family: 'Sinais', Arial, sans-serif;
+  font-weight:normal;
+  font-style:normal;
 }
 
 h1 {
