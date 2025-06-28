@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Sinais';
-    src: url('/fonts/SinaisEstrangeiro-Regular.eot');
-    src: url('/fonts/SinaisEstrangeiro-Regular.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/SinaisEstrangeiro-Regular.woff2') format('woff2'),
-        url('/fonts/SinaisEstrangeiro-Regular.woff') format('woff'),
-        url('/fonts/SinaisEstrangeiro-Regular.ttf') format('truetype'),
-        url('/fonts/SinaisEstrangeiro-Regular.svg#SinaisEstrangeiro-Regular') format('svg');
+    src: url('css/fonts/SinaisEstrangeiro-Regular.eot');
+    src: url('css/fonts/SinaisEstrangeiro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('css/fonts/SinaisEstrangeiro-Regular.woff2') format('woff2'),
+        url('css/fonts/SinaisEstrangeiro-Regular.woff') format('woff'),
+        url('css/fonts/SinaisEstrangeiro-Regular.ttf') format('truetype'),
+        url('css/fonts/SinaisEstrangeiro-Regular.svg#SinaisEstrangeiro-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
